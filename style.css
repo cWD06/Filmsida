@@ -1,0 +1,33 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: 1.7rem;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-image: url(background.jpeg);
+    background-color: #cccccc;
+}
+
+.image {
+    width: auto;
+    height: 50vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main p {
+    width: 60vw;
+}
